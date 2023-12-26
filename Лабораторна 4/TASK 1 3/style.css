@@ -1,0 +1,24 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 1px;
+}
+
+.accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    transition: all 1s ease;
+}
+
+.accordion-header {
+    background-color: #bbbbbb;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}

@@ -1,0 +1,19 @@
+table {
+    background-color: yellow;
+    border-color: black;
+}
+
+tr  td {
+    height: 20px;
+    width: 50px;
+}
+tr,td:hover {
+    height: 50px;
+    width: 70px;
+    transition: all 0.7s;
+}
+
+td:hover {
+    background-color: blue;
+    transition: all 0.2s;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>div {
+            max-width: 500px;
+            border: 1px solid blue;
+            border-radius: 15px;
+            padding: 15px;
+            color: brown;
+        }
+
+        label {
+            cursor: pointer;
+        }
+
+        input[type=checkbox] {
+            width: 100%;
+            position: relative;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-color: silver;
+        }
+
+        input[type=checkbox]::before {
+            width: 100%;
+            position: absolute;
+            content: 'Click to open';
+            text-align: center;
+            bottom: 0;
+            display: block;
+            cursor: pointer;
+            font-weight: bold;
+            color: crimson;
+        }
+
+        input[type=checkbox]+div {
+            transition: all 1s ease;
+        }
+
+        input[type=checkbox]:checked+div {
+            display: block;
+        }
+
+        input[type=checkbox]:not(:checked)+div {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <input type="checkbox" />
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro quidem, commodi fugit minus
+            tempora
+            maiores est nihil illo inventore consequuntur velit qui facere quasi tenetur quam deserunt assumenda
+            officia.
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" />
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro quidem, commodi fugit minus
+            tempora
+            maiores est nihil illo inventore consequuntur velit qui facere quasi tenetur quam deserunt assumenda
+            officia.
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" />
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet porro quidem, commodi fugit minus
+            tempora
+            maiores est nihil illo inventore consequuntur velit qui facere quasi tenetur quam deserunt assumenda
+            officia.
+        </div>
+    </div>
+</body>
+
+</html>

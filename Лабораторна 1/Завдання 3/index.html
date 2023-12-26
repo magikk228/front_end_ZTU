@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+            background-color: blue;
+        }
+        ul {
+            background-color: white;
+            width: max-content;
+            border-radius: 3%;
+            border-left: 3px solid yellow;
+            transition: all 0.3s ease;
+        }
+        li {
+            background-color: antiquewhite;
+        }
+        ul :hover {
+            border-color: red;
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        Рівень 1, Елемент 1
+        <ul>
+            Рівень 2, Елемент 1
+            <ul>
+                <li>
+                    Рівень 3,Елемент 1
+                </li>
+                <li>
+                    Рівень 3,Елемент 1
+                </li>
+            </ul>
+        Рівень 2, Елемент 2
+        <ul>
+            <li>
+                Рівень 3, Елемент 3
+            </li>
+            <li>
+                Рівень 3, Елемент 4
+            </li>
+        </ul>
+        </ul>
+    </ul>
+    <ul>Рівень 1, Елемент 2</ul>
+</body>
+</html>

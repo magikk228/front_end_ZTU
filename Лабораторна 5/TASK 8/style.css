@@ -1,0 +1,30 @@
+html {
+    height: 100vh;
+
+  }
+
+  body {
+    margin: 0;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 50vw;
+  }
+
+  img:hover {
+    cursor: zoom-in;
+  }
+
+  .full_width {
+    width: 100vw;
+  }
+
+  .full_width:hover {
+    cursor: zoom-out;
+  }
