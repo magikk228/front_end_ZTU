@@ -1,0 +1,10 @@
+.items {
+    margin: 0 auto;
+    width: 20px;
+    list-style: none;
+}
+.selected
+{
+    color: white;
+    background-color: #e054da;
+}
